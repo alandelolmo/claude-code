@@ -1,0 +1,63 @@
+<!-- GoHighLevel Calendar Widget -->
+<!-- Add this to your /thank-you page in Webflow -->
+<!-- Replace YOUR_CALENDAR_ID with your actual GHL calendar ID -->
+
+<!-- Calendar Container -->
+<div id="ghl-calendar-container" style="max-width: 800px; margin: 0 auto; padding: 2rem;">
+
+  <!-- Option 1: iFrame Embed (Recommended) -->
+  <iframe
+    src="https://api.leadconnectorhq.com/widget/bookings/YOUR_CALENDAR_ID"
+    style="width:100%;min-height:700px;border:none;overflow:hidden;"
+    scrolling="yes"
+    id="ghl-calendar-iframe"
+    title="Schedule Your Consultation"
+    loading="lazy">
+  </iframe>
+
+  <!-- Fallback if calendar doesn't load -->
+  <noscript>
+    <div style="padding: 3rem; text-align: center; background: #f9fafb; border-radius: 1rem;">
+      <h2 style="margin-bottom: 1rem; color: #111827;">Schedule Your Consultation</h2>
+      <p style="margin-bottom: 2rem; color: #6b7280;">JavaScript is required to display the booking calendar.</p>
+      <p style="margin-bottom: 1rem;">Please contact us directly to schedule:</p>
+      <p style="margin-bottom: 0.5rem;">
+        <strong>Phone:</strong> <a href="tel:7373874995" style="color: #14B8A6; font-weight: bold;">(737) 387-4995</a>
+      </p>
+      <p>
+        <strong>Email:</strong> <a href="mailto:info@delolmoconstruction.com" style="color: #14B8A6;">info@delolmoconstruction.com</a>
+      </p>
+    </div>
+  </noscript>
+</div>
+
+<!-- Optional: Calendar JavaScript SDK -->
+<!--
+<script src="https://link.msgsndr.com/js/booking_embed.js"></script>
+<div id="ghl-booking-YOUR_CALENDAR_ID"></div>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    if (typeof ghl_booking !== 'undefined') {
+      ghl_booking.init({
+        calendarId: 'YOUR_CALENDAR_ID',
+        elementId: 'ghl-booking-YOUR_CALENDAR_ID'
+      });
+    }
+  });
+</script>
+-->
+
+<!-- Track calendar view -->
+<script>
+  // Track that user reached the thank you page
+  if (typeof gtag === 'function') {
+    gtag('event', 'conversion', {
+      'send_to': 'G-XXXXXXXXXX/CONVERSION_ID',
+      'transaction_id': ''
+    });
+  }
+
+  if (typeof fbq === 'function') {
+    fbq('track', 'Schedule');
+  }
+</script>

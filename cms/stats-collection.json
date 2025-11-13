@@ -1,0 +1,54 @@
+{
+  "name": "Stats",
+  "singularName": "Stat",
+  "fields": [
+    {
+      "name": "Value",
+      "slug": "value",
+      "type": "PlainText",
+      "required": true,
+      "helpText": "The stat number (e.g., '500+', '98%', '4.9', '24hrs')"
+    },
+    {
+      "name": "Label",
+      "slug": "label",
+      "type": "PlainText",
+      "required": true,
+      "helpText": "What the stat represents (e.g., 'Projects Completed', 'Client Satisfaction')"
+    },
+    {
+      "name": "Subtext",
+      "slug": "subtext",
+      "type": "PlainText",
+      "required": false,
+      "helpText": "Optional additional context or descriptor"
+    },
+    {
+      "name": "Order",
+      "slug": "order",
+      "type": "Number",
+      "required": true,
+      "helpText": "Display order (1-3 for hero stats)"
+    }
+  ],
+  "sampleItems": [
+    {
+      "value": "500+",
+      "label": "Projects Completed",
+      "subtext": "Since 2020",
+      "order": 1
+    },
+    {
+      "value": "24 HRS",
+      "label": "Estimate Turnaround",
+      "subtext": "Guaranteed",
+      "order": 2
+    },
+    {
+      "value": "98%",
+      "label": "Client Satisfaction",
+      "subtext": "5-Star Reviews",
+      "order": 3
+    }
+  ]
+}

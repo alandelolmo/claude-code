@@ -1,0 +1,105 @@
+{
+  "name": "Blog Posts",
+  "singularName": "Blog Post",
+  "fields": [
+    {
+      "name": "Title",
+      "slug": "title",
+      "type": "PlainText",
+      "required": true,
+      "helpText": "Blog post title"
+    },
+    {
+      "name": "Slug",
+      "slug": "slug",
+      "type": "SlugField",
+      "required": true,
+      "helpText": "Auto-generated from title"
+    },
+    {
+      "name": "Summary",
+      "slug": "summary",
+      "type": "PlainText",
+      "required": true,
+      "helpText": "Short excerpt/summary for blog listing (max 250 characters)"
+    },
+    {
+      "name": "Body",
+      "slug": "body",
+      "type": "RichText",
+      "required": true,
+      "helpText": "Full blog post content"
+    },
+    {
+      "name": "Main Image",
+      "slug": "main-image",
+      "type": "Image",
+      "required": true,
+      "helpText": "Featured image (recommended: 1200x630px for social sharing)"
+    },
+    {
+      "name": "Category",
+      "slug": "category",
+      "type": "PlainText",
+      "required": false,
+      "helpText": "Post category (e.g., 'Renovation Tips', 'Project Updates', 'Industry News')"
+    },
+    {
+      "name": "Author",
+      "slug": "author",
+      "type": "PlainText",
+      "required": true,
+      "helpText": "Author name (default: 'Alan Del Olmo')"
+    },
+    {
+      "name": "Publish Date",
+      "slug": "publish-date",
+      "type": "DateTime",
+      "required": true,
+      "helpText": "When the post was published"
+    },
+    {
+      "name": "Featured",
+      "slug": "featured",
+      "type": "Switch",
+      "required": false,
+      "helpText": "Featured post (shows at top of blog listing)"
+    },
+    {
+      "name": "Meta Description",
+      "slug": "meta-description",
+      "type": "PlainText",
+      "required": false,
+      "helpText": "SEO meta description (max 160 characters)"
+    }
+  ],
+  "sampleItems": [
+    {
+      "title": "Top 5 Kitchen Remodeling Trends in Austin for 2024",
+      "summary": "Discover the hottest kitchen design trends Austin homeowners are embracing, from smart appliances to sustainable materials.",
+      "category": "Renovation Tips",
+      "author": "Alan Del Olmo",
+      "publish-date": "2024-01-15",
+      "featured": true,
+      "meta-description": "Explore the top kitchen remodeling trends in Austin for 2024. Expert insights from Del Olmo Construction on modern designs and materials."
+    },
+    {
+      "title": "House Flipping 101: Maximizing ROI on Your Investment Property",
+      "summary": "Essential tips for real estate investors on choosing the right renovations to maximize return on investment.",
+      "category": "Investment Tips",
+      "author": "Alan Del Olmo",
+      "publish-date": "2024-01-22",
+      "featured": true,
+      "meta-description": "Learn how to maximize ROI on house flipping projects in Austin. Expert renovation advice from experienced contractors."
+    },
+    {
+      "title": "Concrete vs. Pavers: Which is Right for Your Austin Driveway?",
+      "summary": "A comprehensive comparison of concrete and paver driveways, covering cost, durability, maintenance, and aesthetics.",
+      "category": "Concrete Work",
+      "author": "Alan Del Olmo",
+      "publish-date": "2024-02-05",
+      "featured": false,
+      "meta-description": "Compare concrete vs. pavers for your Austin driveway. Cost, durability, and maintenance guide from Del Olmo Construction."
+    }
+  ]
+}

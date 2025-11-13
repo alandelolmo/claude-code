@@ -1,0 +1,103 @@
+{
+  "name": "FAQs",
+  "singularName": "FAQ",
+  "fields": [
+    {
+      "name": "Question",
+      "slug": "question",
+      "type": "PlainText",
+      "required": true,
+      "helpText": "The question text"
+    },
+    {
+      "name": "Answer",
+      "slug": "answer",
+      "type": "RichText",
+      "required": true,
+      "helpText": "The detailed answer (can include formatting, links, bullets)"
+    },
+    {
+      "name": "Slug",
+      "slug": "slug",
+      "type": "SlugField",
+      "required": true,
+      "helpText": "Auto-generated from question"
+    },
+    {
+      "name": "Category",
+      "slug": "category",
+      "type": "PlainText",
+      "required": false,
+      "helpText": "FAQ category (e.g., 'General', 'Pricing', 'Process', 'Services')"
+    },
+    {
+      "name": "Order",
+      "slug": "order",
+      "type": "Number",
+      "required": true,
+      "helpText": "Display order (lower numbers appear first)"
+    }
+  ],
+  "sampleItems": [
+    {
+      "question": "How quickly can I get an estimate for my construction project?",
+      "answer": "<p>We provide detailed project estimates within 24 hours. Simply fill out our online form or call us at (737) 387-4995, and we'll schedule a consultation to assess your project needs and provide a comprehensive quote.</p>",
+      "category": "General",
+      "order": 1
+    },
+    {
+      "question": "What areas do you serve in the Austin metro?",
+      "answer": "<p>Del Olmo Construction serves Austin and surrounding areas including Round Rock, Cedar Park, Georgetown, Pflugerville, Lakeway, and other communities in Travis, Williamson, and Hays counties. Contact us to confirm we serve your specific location.</p>",
+      "category": "General",
+      "order": 2
+    },
+    {
+      "question": "Are you licensed and insured?",
+      "answer": "<p>Yes, Del Olmo Construction is fully licensed and insured. We maintain comprehensive general liability insurance and workers' compensation coverage to protect our clients and team members on every project.</p>",
+      "category": "General",
+      "order": 3
+    },
+    {
+      "question": "What types of construction projects do you specialize in?",
+      "answer": "<p>We specialize in:</p><ul><li>Residential renovations and remodeling (kitchens, bathrooms, whole-home)</li><li>House flipping projects for real estate investors</li><li>Concrete and foundation work (driveways, patios, foundations)</li><li>Commercial renovations and buildouts</li></ul><p>We work with homeowners, real estate investors, and business owners.</p>",
+      "category": "Services",
+      "order": 4
+    },
+    {
+      "question": "Do you work with real estate investors and house flippers?",
+      "answer": "<p>Absolutely! We have extensive experience working with real estate investors and house flippers. We understand the importance of staying on budget and timeline to maximize your ROI. Our team can help with everything from cosmetic updates to full gut renovations.</p>",
+      "category": "Services",
+      "order": 5
+    },
+    {
+      "question": "How long does a typical renovation project take?",
+      "answer": "<p>Project timelines vary based on scope and complexity:</p><ul><li>Bathroom remodel: 2-3 weeks</li><li>Kitchen remodel: 4-6 weeks</li><li>Full home renovation: 8-12 weeks</li><li>House flip: 8-14 weeks</li></ul><p>We provide detailed timelines during the estimate phase and keep you updated throughout the project.</p>",
+      "category": "Process",
+      "order": 6
+    },
+    {
+      "question": "Do you offer financing options?",
+      "answer": "<p>We can discuss various payment structures and schedules to fit your project budget. Contact us to learn more about payment options for your specific project.</p>",
+      "category": "Pricing",
+      "order": 7
+    },
+    {
+      "question": "Will I have a dedicated project manager?",
+      "answer": "<p>Yes, every project is assigned a dedicated project manager who serves as your main point of contact. They'll coordinate all aspects of your project, communicate progress, and ensure everything stays on schedule and budget.</p>",
+      "category": "Process",
+      "order": 8
+    },
+    {
+      "question": "Do you handle permits and inspections?",
+      "answer": "<p>Yes, we handle all necessary permits and coordinate required inspections with local authorities. This is included in our project management services to ensure your project meets all building codes and regulations.</p>",
+      "category": "Process",
+      "order": 9
+    },
+    {
+      "question": "What's your warranty policy?",
+      "answer": "<p>We stand behind our work with comprehensive warranties on both materials and labor. Warranty terms vary by project type and materials used. We'll provide specific warranty information in your project proposal.</p>",
+      "category": "General",
+      "order": 10
+    }
+  ]
+}

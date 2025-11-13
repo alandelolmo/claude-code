@@ -1,0 +1,43 @@
+<!-- GoHighLevel Lead Form Embed -->
+<!-- This goes inside your modal-form-wrapper div in Webflow -->
+<!-- Replace YOUR_FORM_ID with your actual GHL form ID -->
+
+<!-- Option 1: iFrame Embed (Recommended) -->
+<iframe
+  src="https://api.leadconnectorhq.com/widget/form/YOUR_FORM_ID"
+  style="width:100%;height:500px;border:none;overflow:hidden;"
+  scrolling="no"
+  id="ghl-form-iframe"
+  title="Request Your Free Estimate"
+  loading="lazy">
+</iframe>
+
+<!-- Option 2: JavaScript Embed -->
+<script src="https://link.msgsndr.com/js/form_embed.js"></script>
+<div id="ghl-form-YOUR_FORM_ID"></div>
+<script>
+  // Initialize GHL form
+  document.addEventListener('DOMContentLoaded', function() {
+    if (typeof ghl_form !== 'undefined') {
+      ghl_form.init({
+        formId: 'YOUR_FORM_ID',
+        elementId: 'ghl-form-YOUR_FORM_ID',
+        // Optional: Custom styling
+        customStyles: {
+          buttonBackgroundColor: '#14B8A6',
+          buttonTextColor: '#FFFFFF',
+          primaryColor: '#14B8A6'
+        }
+      });
+    }
+  });
+</script>
+
+<!-- Fallback if form doesn't load -->
+<noscript>
+  <div style="padding: 2rem; text-align: center; background: #f9fafb; border-radius: 1rem;">
+    <p style="margin-bottom: 1rem;">JavaScript is required to display this form.</p>
+    <p>Please call us at <a href="tel:7373874995" style="color: #14B8A6; font-weight: bold;">(737) 387-4995</a></p>
+    <p>or email <a href="mailto:info@delolmoconstruction.com" style="color: #14B8A6;">info@delolmoconstruction.com</a></p>
+  </div>
+</noscript>

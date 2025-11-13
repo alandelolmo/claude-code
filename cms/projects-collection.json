@@ -1,0 +1,174 @@
+{
+  "name": "Projects",
+  "singularName": "Project",
+  "fields": [
+    {
+      "name": "Title",
+      "slug": "title",
+      "type": "PlainText",
+      "required": true,
+      "helpText": "Project name (e.g., 'Modern Kitchen Remodel in Hyde Park')"
+    },
+    {
+      "name": "Slug",
+      "slug": "slug",
+      "type": "SlugField",
+      "required": true,
+      "helpText": "Auto-generated from title"
+    },
+    {
+      "name": "Project Type",
+      "slug": "project-type",
+      "type": "PlainText",
+      "required": true,
+      "helpText": "Badge label (e.g., 'Renovation', 'Flip', 'Commercial', 'Concrete')"
+    },
+    {
+      "name": "Location",
+      "slug": "location",
+      "type": "PlainText",
+      "required": true,
+      "helpText": "City and ZIP (e.g., 'Austin, TX 78701')"
+    },
+    {
+      "name": "Square Footage",
+      "slug": "square-footage",
+      "type": "Number",
+      "required": false,
+      "helpText": "Total square footage of project"
+    },
+    {
+      "name": "Duration",
+      "slug": "duration",
+      "type": "PlainText",
+      "required": false,
+      "helpText": "How long project took (e.g., '6 weeks', '3 months')"
+    },
+    {
+      "name": "Budget",
+      "slug": "budget",
+      "type": "PlainText",
+      "required": false,
+      "helpText": "Project cost (e.g., '$85,000', '$50K-$75K')"
+    },
+    {
+      "name": "ROI Percentage",
+      "slug": "roi-percentage",
+      "type": "Number",
+      "required": false,
+      "helpText": "Return on investment as percentage (e.g., 125 for 125%)"
+    },
+    {
+      "name": "Short Description",
+      "slug": "short-description",
+      "type": "PlainText",
+      "required": true,
+      "helpText": "1-2 sentence summary for project cards (max 200 characters)"
+    },
+    {
+      "name": "Full Description",
+      "slug": "full-description",
+      "type": "RichText",
+      "required": true,
+      "helpText": "Detailed project description for modal/detail page"
+    },
+    {
+      "name": "Year Completed",
+      "slug": "year-completed",
+      "type": "Number",
+      "required": false,
+      "helpText": "Year project was completed (e.g., 2024)"
+    },
+    {
+      "name": "Client Type",
+      "slug": "client-type",
+      "type": "PlainText",
+      "required": false,
+      "helpText": "Who we worked with (e.g., 'Homeowner', 'Investor', 'Business Owner')"
+    },
+    {
+      "name": "Main Image",
+      "slug": "main-image",
+      "type": "Image",
+      "required": true,
+      "helpText": "Primary project photo (recommended: 1200x800px)"
+    },
+    {
+      "name": "Gallery",
+      "slug": "gallery",
+      "type": "MultiImage",
+      "required": false,
+      "helpText": "Additional project photos (before/after, progress, details)"
+    },
+    {
+      "name": "Featured",
+      "slug": "featured",
+      "type": "Switch",
+      "required": false,
+      "helpText": "Show on homepage (limit to 4-6 featured projects)"
+    },
+    {
+      "name": "Order",
+      "slug": "order",
+      "type": "Number",
+      "required": false,
+      "helpText": "Display order (lower numbers appear first)"
+    }
+  ],
+  "sampleItems": [
+    {
+      "title": "Luxury Kitchen Renovation - Tarrytown",
+      "project-type": "Kitchen Remodel",
+      "location": "Austin, TX 78703",
+      "square-footage": 450,
+      "duration": "6 weeks",
+      "budget": "$95,000",
+      "roi-percentage": 145,
+      "short-description": "Complete kitchen transformation featuring custom cabinetry, quartz countertops, and high-end appliances.",
+      "year-completed": 2024,
+      "client-type": "Homeowner",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "title": "Full House Flip - East Austin",
+      "project-type": "Investment Flip",
+      "location": "Austin, TX 78702",
+      "square-footage": 1850,
+      "duration": "10 weeks",
+      "budget": "$125,000",
+      "roi-percentage": 180,
+      "short-description": "Complete gut renovation of 1960s bungalow, transforming it into a modern 3-bed, 2-bath dream home.",
+      "year-completed": 2024,
+      "client-type": "Real Estate Investor",
+      "featured": true,
+      "order": 2
+    },
+    {
+      "title": "Concrete Driveway & Patio - Round Rock",
+      "project-type": "Concrete Work",
+      "location": "Round Rock, TX 78664",
+      "square-footage": 800,
+      "duration": "2 weeks",
+      "budget": "$18,500",
+      "short-description": "New stamped concrete driveway and backyard patio with decorative edging and custom finish.",
+      "year-completed": 2024,
+      "client-type": "Homeowner",
+      "featured": true,
+      "order": 3
+    },
+    {
+      "title": "Office Renovation - Downtown Austin",
+      "project-type": "Commercial",
+      "location": "Austin, TX 78701",
+      "square-footage": 3200,
+      "duration": "8 weeks",
+      "budget": "$210,000",
+      "short-description": "Modern office buildout including private offices, open workspace, conference rooms, and break area.",
+      "year-completed": 2023,
+      "client-type": "Business Owner",
+      "featured": true,
+      "order": 4
+    }
+  ]
+}

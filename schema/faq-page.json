@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.delolmoconstruction.com/#faq",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How quickly can I get an estimate for my construction project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We provide detailed project estimates within 24 hours. Simply fill out our online form or call us at (737) 387-4995, and we'll schedule a consultation to assess your project needs and provide a comprehensive quote."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What areas do you serve in the Austin metro?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Del Olmo Construction serves Austin and surrounding areas including Round Rock, Cedar Park, Georgetown, Pflugerville, Lakeway, and other communities in Travis, Williamson, and Hays counties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are you licensed and insured?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Del Olmo Construction is fully licensed and insured. We maintain comprehensive general liability insurance and workers' compensation coverage to protect our clients and team members on every project."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of construction projects do you specialize in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We specialize in residential and commercial renovations, house flipping projects for investors, concrete and foundation work, kitchen and bathroom remodels, and complete home renovations. We work with homeowners, real estate investors, and business owners."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you work with real estate investors and house flippers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely! We have extensive experience working with real estate investors and house flippers. We understand the importance of staying on budget and timeline to maximize your ROI. Our team can help with everything from cosmetic updates to full gut renovations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a typical renovation project take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Project timelines vary based on scope and complexity. A bathroom remodel might take 2-3 weeks, while a full home renovation could take 8-12 weeks. We provide detailed timelines during the estimate phase and keep you updated throughout the project."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer financing options?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We can discuss various payment structures and schedules to fit your project budget. Contact us to learn more about payment options for your specific project."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I have a dedicated project manager?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, every project is assigned a dedicated project manager who serves as your main point of contact. They'll coordinate all aspects of your project, communicate progress, and ensure everything stays on schedule and budget."
+      }
+    }
+  ]
+}

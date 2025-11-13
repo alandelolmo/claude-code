@@ -1,0 +1,105 @@
+{
+  "name": "Testimonials",
+  "singularName": "Testimonial",
+  "fields": [
+    {
+      "name": "Name",
+      "slug": "name",
+      "type": "PlainText",
+      "required": true,
+      "helpText": "Client's name (e.g., 'Sarah M.' or 'John & Lisa T.')"
+    },
+    {
+      "name": "Quote",
+      "slug": "quote",
+      "type": "RichText",
+      "required": true,
+      "helpText": "The testimonial text"
+    },
+    {
+      "name": "Slug",
+      "slug": "slug",
+      "type": "SlugField",
+      "required": true,
+      "helpText": "Auto-generated from name"
+    },
+    {
+      "name": "Project Type",
+      "slug": "project-type",
+      "type": "PlainText",
+      "required": false,
+      "helpText": "What service they used (e.g., 'Kitchen Remodel', 'House Flip')"
+    },
+    {
+      "name": "Location",
+      "slug": "location",
+      "type": "PlainText",
+      "required": false,
+      "helpText": "City (e.g., 'Austin', 'Round Rock')"
+    },
+    {
+      "name": "Order",
+      "slug": "order",
+      "type": "Number",
+      "required": false,
+      "helpText": "Display order (lower numbers appear first)"
+    },
+    {
+      "name": "Featured",
+      "slug": "featured",
+      "type": "Switch",
+      "required": false,
+      "helpText": "Show on homepage (limit to 3-6 featured testimonials)"
+    }
+  ],
+  "sampleItems": [
+    {
+      "name": "Michael R.",
+      "quote": "Del Olmo Construction transformed our dated kitchen into a modern masterpiece. Alan and his team were professional, on-time, and stayed within budget. The attention to detail was incredible. Highly recommend!",
+      "project-type": "Kitchen Remodel",
+      "location": "Austin",
+      "order": 1,
+      "featured": true
+    },
+    {
+      "name": "Jennifer & Tom S.",
+      "quote": "We've flipped 15 houses in Austin, and Del Olmo Construction is our go-to contractor. They understand timelines and investor budgets. Their work quality is excellent, and they always deliver on schedule.",
+      "project-type": "Investment Flip",
+      "location": "East Austin",
+      "order": 2,
+      "featured": true
+    },
+    {
+      "name": "Patricia L.",
+      "quote": "Outstanding concrete work! Our new driveway and patio look amazing. The crew was courteous, cleaned up every day, and the stamped concrete finish exceeded our expectations. Very happy!",
+      "project-type": "Concrete Work",
+      "location": "Round Rock",
+      "order": 3,
+      "featured": true
+    },
+    {
+      "name": "David M.",
+      "quote": "From estimate to completion, the entire process was smooth. Alan provided a detailed quote within 24 hours as promised, and his team finished our bathroom renovation ahead of schedule. Quality work at a fair price.",
+      "project-type": "Bathroom Remodel",
+      "location": "Cedar Park",
+      "order": 4,
+      "featured": true
+    },
+    {
+      "name": "Carlos E.",
+      "quote": "As a business owner, I needed someone reliable to renovate my office space. Del Olmo Construction handled everything - permits, design, construction - and delivered a beautiful modern workspace. Couldn't be happier!",
+      "project-type": "Commercial Renovation",
+      "location": "Downtown Austin",
+      "order": 5,
+      "featured": true
+    },
+    {
+      "name": "Amanda K.",
+      "quote": "The whole-home renovation was a big project, but Alan's team made it stress-free. They communicated constantly, were flexible with our requests, and the craftsmanship is top-notch. Our home looks incredible!",
+      "project-type": "Full Home Renovation",
+      "location": "Lakeway",
+      "order": 6,
+      "featured": true
+    }
+  ]
+}
